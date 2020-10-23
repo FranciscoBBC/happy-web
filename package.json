@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "husky": {
-    "hook": { 
+    "hooks": { 
       "pre-commit": "lint-staged"
     }
   },

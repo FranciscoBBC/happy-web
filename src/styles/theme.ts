@@ -1,7 +1,10 @@
 const theme = {
   color: {
     text: '#FFF',
-    background: '#000'
+    background: '#EBF2F5'
+  },
+  font: {
+    default: '600 18px Nunito, sans-serif'
   }
 };
 

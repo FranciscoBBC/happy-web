@@ -13,7 +13,7 @@
     }
   },
   "lint-staged":{
-    "*.{ts,tsx}": ["eslint --fix", "git add"] 
+    "*.{ts,tsx}": ["eslint --fix", "prettier --write", "git add"] 
   },
   "dependencies": {
     "next": "9.5.5",

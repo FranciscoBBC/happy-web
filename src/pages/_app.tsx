@@ -14,6 +14,7 @@ const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
           href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap"
           rel="stylesheet"
         />
+        <title>happy</title>
       </Head>
       <Component {...pageProps} />
       <GlobalStyles />

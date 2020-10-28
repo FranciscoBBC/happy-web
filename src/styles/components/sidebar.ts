@@ -13,6 +13,7 @@ export const SidebarWrapper = styled.div<SidebarWrapper>`
   background: ${props => props.theme.color.one};
   width: 350px;
   height: 100vh;
+  z-index: 10;
   transition: 0.5s ease-in-out;
 
   transform: ${props => (props.active ? 'translateX(350px)' : 'none')};
